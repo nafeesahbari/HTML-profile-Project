@@ -1,1 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Nafeesah Bari | Software Engineer</title>
+  </head>
 
+  <body>
+    <!-- Navbar -->
+    <nav>
+        <h1>NAFEESAH BARI</h1>
+        <ul class="navigation">
+          <li><a href="#home" class="nav-link">Home / Bio</a></li>
+          <li><a href="#exp" class="nav-link">Experience</a></li>
+          <li><a href="#port" class="nav-link">Portfolio</a></li>
+        </ul>
+        <button class="menu" id="menu"> <!--Makes everything clickable-->
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <!-- Home & Bio Section -->
+    <section class="home" id="home">
+      <img
+        src="IMG_garden.jpeg"
+        alt="Home-gif"
+        loading="loading"
+        class="home-gif"
+      />
+      <div class="bio">
+        <h2 class="bio-title">Hello & welcome to my page!</h2>
+        <p class="bio-text">
+          Hello and welcome to my e-portfolio. My name is Nafeesah Bari, 
+          and I am currently a Warner Music Group (WMG) apprentice with Multiverse. 
+          While I aim to become a proficient programmer, I also love 
+          collaborating & learning from others. 
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        I want to excel as a professional software developer. Not only do I
+        want to showcase my skills but I also aim to be an impactor by
+        working hard through my challenges & successes I encounter.
+      </p>
+      <p>
+        A prominent goal of mine is to become financially independent
+        and free for me & my family. I want to work in tech because I find it
+        the most rewarding. I enjoy it because I get to see changes happen
+        right before me. With that, I want to work in an environment where
+        I will be economically stable.
+      </p>
+      <p>
+        I enjoy learning Japanese on a frequent basis. Grown up in a
+        diverse community, I'm bilingual in English & Bengali. So now I'm
+        inspired to expand my skills in what I enjoy, which is Japanese
+        music. Knowledge is endless so I thought, why not try fun
+        interests that actively expands my skills.
+      </p>
+    </section>
+
+    <section class="current-listen">
+      <p>
+        Currently I'm listening to...
+      </p>
+      <br>
+      <!-- YouTube doesn't allow 3rd parties to embed their site directly. Must use embed from YouTube share -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/pqobRu9aR3M" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <!-- Experience section -->
+    <section class="exp" id="exp">
+      <h2 class="exp-header">My Experience</h2>
+
+      <div class="exp-wrapper">
+        <div class="first-set">
+          <img
+            src="aws.png"
+            alt="aws-cert"
+            loading="loading"
+            class="icon icon-card"
+          />
+          <img
+            src="CSS-Logo.jpg"
+            alt="css-logo"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="html.png"
+            alt="html-logo"
+            loading="loading"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set">
+          <img
+            src="JavaScript-logo.png"
+            alt="js-logo"
+            loading="loading"
+            class="icon icon-card"
+          />
+          <img
+            src="ms.png"
+            alt="ms-info"
+            loading="loading"
+            class="icon icon-card"
+          />
+          <img
+            src="yearup.png"
+            alt="yearup-info"
+            loading="loading"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -> Portfolio section -->
+    <section class="port" id="port">
+      <h2 class="projects-title">My Projects</h2>
+      <div class="projects-container">
+        <!-- Project #1 -->
+        <div class="project-container project-card">
+          <img
+            src="gui-mortgage.png"
+            alt="gui-mortgage"
+            loading="loading"
+            class="project-pic"
+          />
+          <h3 class="project-title">GUI Mortgage Calculator</h3>
+          <p class="project-details">
+            The goal was to create a calculator. I was using Python to complete
+            this project. I did some research on what methods to use for this.
+            Ultimately, I created a GUI for a mortgage calculator.
+          </p>
+          <a href="https://replit.com/@NafeesahBari/Project-GUI-Calc#main.py" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <!-- Project #2 -->
+        <div class="project-container project-card">
+          <img
+            src="weather-app.png"
+            alt="weather-app"
+            loading="loading"
+            class="project-pic"
+          />
+          <h3 class="project-title">Weather Appllication</h3>
+          <p class="project-details">
+            My goal was to use a learning based platform, Pluralsight to
+            create a weather application. I followed the steps on how to
+            create my own app using the details provided and render real
+            data from a JSON file so that it can be reported to my weather app.
+          </p>
+          <a href="https://nafeesahbari.github.io/jsonproject3.github.io/" target="_blank" class="project-link">Check it out, real time!</a>
+          <br>
+          <a href="https://github.com/nafeesahbari/jsonproject3.github.io" target="_blank" class="project-link">Check out my Github</a>
+        </div>
+        <!-- Project #3 -->
+        <div class="project-container project-card">
+          <img
+            src="solar.png"
+            alt="solar-earth"
+            loading="loading"
+            class="project-pic"
+          />
+          <h3 class="project-title">Solar Calculator</h3>
+          <p class="project-details">
+            Using a learning platform, Plural Sight I delved into this project to
+            better understand JavaScript in the User interface (UI/UX design). The aim
+            was to see how design happens while calculations are incorporated from a 
+            backend perspective. 
+          </p>
+          <a href="https://stirring-liger-435f57.netlify.app/index.html" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scroll to top: uses the i tag -->
+    <i class="scroll-up" id="scroll-up">
+        <img
+          src="scroll.gif"
+          class="socicon up-arrow"
+          alt="scroll-up" 
+        />
+    </i>
+
+    <!-- JS actions -->
+    <script
+      type="module"
+      src="script.js"
+    ></script>
+  </body>
+</html>

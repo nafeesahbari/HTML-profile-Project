@@ -1,1 +1,197 @@
+/* asterisk applies to all */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration:solid;
+  color: black;
+}
+
+a:hover {
+  color:cornflowerblue;
+}
+
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Will always remian at top */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: whitesmoke;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+/* sets nav menu across the row */
+nav ul {
+  display: flex;
+  gap: 1.9rem;
+}
+
+/* keeps menu bar hidden */
+.menu {
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+
+/* display text & img side by side */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+}
+
+.home img {
+  height: 30rem;
+  width: 50rem;
+}
+
+.home {
+  width: 50rem;
+  padding: 0.625rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+
+.home h1 {
+  margin-bottom: var(--bottom-margin);
+}
+
+.home p {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+}
+
+/* More about me section */
+.more-about {
+  background-color: white;
+  padding: 1rem 6rem;
+}
+
+.more-about h2 {
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.more-about p {
+  line-height: normal;
+  padding: 0.4rem;
+}
+
+.current-listen {
+  font-weight: bolder;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+/* Experience section */
+
+/* Experience section */
+.exp {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.exp-header {
+  margin-bottom: 1rem;
+}
+
+.exp-wrapper img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 25rem;
+  height: 19rem;
+}
+
+.icon-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+
+/* Potrtfolio section */
+
+.projects {
+  background-color: white;
+  padding: 32px 0;
+  margin-top: 2rem;
+}
+
+.project-pic {
+  width: 110%;
+  height: 120%;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.project-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 0.4rem;
+}
+
+.project-container p {
+  padding: 0.4rem;
+}
+
+.project-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+
+/* scrolling */
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+/* Resposive web design */
+@media screen and (max-width: 720px) {
+}
